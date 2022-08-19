@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="parte.css">
+    <title>RH Consultoria</title>
+</head>
+<body>
+    <section>
+    <header><h1>Página do Candidato</h1></header>
+
+    
+        <h3>Informações do Candidato</h3>
+
+    <div id="inpElab">
+        <label for="Nome">Nome:</label>
+        <input type="text" placeholder="Nome" id="nome">
+        <label for="Idade">Idade:</label>
+        <input type="number" name="idade" id="idade" placeholder="Idade">
+        <button id="but1" onclick="adicionar()">Adicionar Informações</button>
+    </div>
+
+    <div id="resultado">
+        
+    </div>
+
+    <select name="seletor" id="seletor" size="10">
+        <option value="option"></option>
+    </select>
+    <button id="but2" onclick="finalizar()">Finzalizar Verificação</button>
+
+        <img src="./equipa.svg" alt="img" id="imagem">
+        
+
+    </section>
+    <script src="./parte.js"></script>
+</body>
+</html>

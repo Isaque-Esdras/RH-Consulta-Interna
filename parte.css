@@ -1,0 +1,37 @@
+body{
+     display: block;
+     background: rgb(146, 68, 209);
+     color: aliceblue;
+     display: flex;
+     justify-content: flex-end;
+     width: 100%;
+     height: 100%;
+}
+
+select#seletor{
+     width: 500px;
+     background: rgb(236, 226, 224);
+     color: rgb(88, 29, 167);
+     font: normal 16pt italic;
+}
+
+img{
+
+    width: 470px;
+}
+
+header{
+
+    font: normal 24pt italic;
+}
+
+button{
+    border-radius: 5px;
+    background: white;
+    color: rgb(34, 15, 136);
+}
+
+section{
+    box-shadow: 10px 15px 5px white;
+    border-radius: 20px;
+}
